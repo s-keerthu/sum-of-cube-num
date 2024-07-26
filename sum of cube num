@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class gfg{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int m=a,m=h;
+        int n,r,c=0;
+        int s=0;
+        while(a>0){
+            n=a/10;
+            c++;
+        }
+        while(m>0){
+            r=m%10;
+            int p=(int)Math.pow(r,c);
+            s=s+p;
+            m=m/10;
+            c--;
+            }
+            
+        if(s==h){
+            System.out.print("yes");
+        }
+        else{
+            System.out.print("no");
+
+        }
+    }
+}
